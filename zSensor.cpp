@@ -29,7 +29,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 //Might need later for identifying zone types.
 //#include "gWinZone.h"
 
-class zSensorFinished{};
+//Attempted to bypass eSensor.
+//class zSensorFinished{};
 
 void zSensor::DetectZone(zZone *Zone, REAL time)
 {
