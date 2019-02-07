@@ -44,7 +44,7 @@ void zSensor::DetectZone(zZone *Zone, REAL time)
 		eSensor::DetectZone(Zone, time);
 	}
 
-	catch (zSensorFinished &e)
+	catch (eSensorFinished &e)
 	{
 		zZone *targetZone = dynamic_cast <zZone *> (Zone);
 
